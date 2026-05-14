@@ -5,11 +5,11 @@ int main() {
     int *ptr;
     ptr = &numeros[0];
     
-    //Tercera version del codigo para imprimir un puntero hacia un vector
+    //Cuarta version del codigo para imprimir un puntero hacia un vector
     
     for(int i=0;i<7;i++){
         printf("%d ", numeros[i]);
-        printf("%d \n",*(ptr+i));
+        printf("%d \n",*(ptr++));
     }
     return 0;
 }
